@@ -1,0 +1,12 @@
+i := 0 
+j1 := 0 
+j2 := 0 
+while GeneratingOutput: 
+i := i + 1 
+j1 := j1 + S1[i] 
+swap values of S1[i] and S1[j1] 
+output S2[S1[i] + S1[j1]]
+j2 := j2 + S2[i] 
+swap values of S2[i] and S2[j2] 
+output S1[S2[i] + S2[j2]] 
+endwhile
